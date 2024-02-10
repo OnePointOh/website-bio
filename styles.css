@@ -11,7 +11,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: #000;
-    margin: 0;
+    margin: 25px;
     padding: 0;
 }
 
@@ -19,34 +19,18 @@ header, nav, main, footer {
     margin: 20px;
 }
 
-header h1 {
-    font-size: 54px;
-    padding-top: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #FFF;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
 main {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body h1 {
+    background-color: hsla(0, 0%, 100%, 0.50);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 section {
@@ -59,7 +43,7 @@ h2 {
 }
 
 img {
-    max-width: 30%;
+    max-width: 20%;
     height: auto;
     border-radius: 10px;
     padding-left: 10px;
